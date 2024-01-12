@@ -5,6 +5,8 @@ on:
     branches:
       - release/*
 
+  workflow_dispatch:
+
 env:
   RELEASE_NAME: ${GITHUB_REF##*release/}
 
